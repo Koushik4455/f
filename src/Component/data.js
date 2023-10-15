@@ -1,0 +1,23 @@
+export const data = [
+    {
+        "id": 1,
+        "ProductName": "Opp",
+        "Stock": "32 in Stack",
+        "Price": "$49",
+        "Total": "20"
+    },
+    {
+        "id": 2,
+        "ProductName": "Nokia",
+        "Stock": "324 in Stack",
+        "Price": "$49",
+        "Total": "20"
+    },
+    {
+        "id": 3,
+        "ProductName": "Samsung",
+        "Stock": "51 in Stack",
+        "Price": "$49",
+        "Total": "20"
+    }
+]

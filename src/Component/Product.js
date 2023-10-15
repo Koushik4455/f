@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import { data } from './data'
 
 
 
 const Product = () => {
-    const [data, setData] = useState([])
+    // const [data, setData] = useState([data])
     const [search, setSearch] = useState('')
 
     const handleInputChange = (event) => {
@@ -20,12 +21,12 @@ const Product = () => {
     );
 
 
-    useEffect(() => {
-        axios.get('http://localhost:8000/Products')
-            .then(res => setData(res.data))
-            .catch(err => console.log(err))
+    // useEffect(() => {
+    //     axios.get('http://localhost:8000/Products')
+    //         .then(res => setData(res.data))
+    //         .catch(err => console.log(err))
 
-    }, [])
+    // }, [])
     // console.log("hkl",data)
     return (
         <div>

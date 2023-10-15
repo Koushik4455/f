@@ -1,6 +1,8 @@
 {
   "name": "fitpeo",
   "version": "0.1.0",
+  "homepage": "https://github.com/Koushik4455/Fitpeo",
+
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -20,7 +22,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch Product.json --port 8000"
+    "server": "json-server --watch Product.json --port 8000",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
