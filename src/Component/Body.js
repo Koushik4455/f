@@ -14,7 +14,7 @@ const Body = () => {
                         <div className='col-md-4'></div>
                         <div className='col-md-4'>
                             <input type='text' placeholder='Search Here' className='Input'  />
-                            <div className="search-icon"><i class="bi bi-search"></i></div>
+                            <div className="search-icon"><i className="bi bi-search"></i></div>
                         </div>
                     </div>
                     {/* Cards Part */}
@@ -30,7 +30,7 @@ const Body = () => {
                         </div>
                         <div className='col-ms-3 card-res1'>
                             <div className="card">
-                                <i class="bi bi-building  body-img"></i>
+                                <i className="bi bi-building  body-img"></i>
                                 <div className="card-content">
                                     <h3>Card Title</h3>
                                     <p>Card description or text goes here.</p>
@@ -39,7 +39,7 @@ const Body = () => {
                         </div>
                         <div className='col-ms-3 card-res1'>
                             <div className="card">
-                                <i class="bi bi-database  body-img"></i>
+                                <i className="bi bi-database  body-img"></i>
                                 <div className="card-content">
                                     <h3>Card Title</h3>
                                     <p>Card description or text goes here.</p>
@@ -48,7 +48,7 @@ const Body = () => {
                         </div>
                         <div className='col-ms-3 card-res1'>
                             <div className="card">
-                                <i class="bi bi-lock  body-img"></i>
+                                <i className="bi bi-lock  body-img"></i>
                                 <div className="card-content">
                                     <h3>Card Title</h3>
                                     <p>Card description or text goes here.</p>

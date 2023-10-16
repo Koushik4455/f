@@ -59,10 +59,10 @@ const Product = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {filteredData?.map((item) => {
+                                        {filteredData?.map((item,index) => {
                                             return (
 
-                                                <tr>
+                                                <tr key={index}>
 
                                                     <th scope='row'>{item.ProductName}</th>
                                                     <td className='table-side'>{item.Stock}</td>
